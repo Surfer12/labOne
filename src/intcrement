@@ -1,0 +1,18 @@
+public class Solution {
+    public ListNode detectCycle(ListNode head){
+        HashMap<ListNode, Integer> nodeMap = new HashMap<>(); 
+        ListNode current = head;
+        int index = 0; // Initialize index to track the position of the node
+        while (current != null) {
+            // If the node is already in the map, it means we have a cycle
+            if (nodeMap.containsKey(current)) {
+                return current;
+            }
+            // Add the current node to the map with its index
+            nodeMap.put(current, index);
+            current = current.next; // Move to the next node
+            index++; // Increment the index
+        }
+        return null; // No cycle detected
+    }
+}

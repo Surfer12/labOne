@@ -67,19 +67,29 @@ public class HashMapSolution {
             // use a while loop to traverse singley linked 
             // add the list with 'addAll' to a hashSet and check boolean return value for whether or not set has changed
 
-public boolean hasCycle(ListNode head){
-    HashMap<ListNode, Boolean> nodeMap = new HashMap<>(); // create new Hashmap of type listNode and boolean 
-    ListNode current = head;
-    while (current != null) {
-        // If the node is already in the map, it means we have a cycle
-        if (nodeMap.containsKey(current)) {
-            return true; 
+
+    public class Solution {
+        public ListNode detectCycle(ListNode head){
+            HashMap<ListNode, Integer> nodeMap = new HashMap<>(); 
+            ListNode current = head;
+            int index = 0; // Initialize index to track the position of the node
+            while (current != null) {
+                // If the node is already in the map, it means we have a cycle
+                if (nodeMap.containsKey(current)) {
+                    return current;
+                }
+                // Add the current node to the map with its index
+                nodeMap.put(current, index);
+                current = current.next; // Move to the next node
+                index++; // Increment the index
+            }
+            return null; // No cycle detected
         }
-        // Add the current node to the map
-        nodeMap.put(current, true);
-        current = current.next; // Move to the next node
-    }
-    return false; // No cycle detected
     }
 }
 }
+
+// Time Complexity: O(n)
+// The algorithm traverses the linked list once, where n is the number of nodes in the list.
+// Space Complexity: O(n)
+// In the worst case, all nodes are stored in the HashMap if there is no cycle.
