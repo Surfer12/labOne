@@ -50,7 +50,7 @@ Can you solve it using O(1) (i.e., constant) memory?
 
 import java.util.*;
 
-public class Solution {
+public class HashMapSolution {
 
     class ListNode {
         int val;
@@ -73,7 +73,7 @@ public boolean hasCycle(ListNode head){
     while (current != null) {
         // If the node is already in the map, it means we have a cycle
         if (nodeMap.containsKey(current)) {
-            return true; // Cycle detected
+            return true; 
         }
         // Add the current node to the map
         nodeMap.put(current, true);

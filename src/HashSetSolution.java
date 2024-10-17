@@ -31,12 +31,32 @@ public class HashSetSolution {
 // Time Complexity: O(n)
 // The algorithm traverses the linked list once, where n is the number of nodes in the list.
 // Equivalent to the input (n) size of the Linked List given. 
-
 // Space Complexity: O(n)
 // In the worst case, all nodes are stored in the HashSet if there is no cycle.
 
+/* 
+class ListNode {
+    int val;
+    ListNode next;
 
+    ListNode(int x) {
+        val = x;
+        next = null; // next is either null or not null
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        ListNode listNode = (ListNode) obj;
+        return val == listNode.val;
+    }
 
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(val);
+    }
+}
+ */
 
 
