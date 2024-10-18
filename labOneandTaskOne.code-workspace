@@ -17,7 +17,8 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"app/src/main/java/weisstextbookcode/weiss-code/code"
+			"app/src/main/java/weisstextbookcode/weiss-code/code",
+			"app/src/main/java/weisstextbookcode/code/weiss"
 		],
 		"java.project.outputPath": "bin",
 		"java.project.referencedLibraries": [
