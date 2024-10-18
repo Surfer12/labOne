@@ -16,15 +16,11 @@
 		}
 	],
 	"settings": {
-		"java.project.sourcePaths": [
-			"app/src/main/java/weisstextbookcode/weiss-code/code",
-			"app/src/main/java/weisstextbookcode/code/weiss"
-		],
+		"java.project.sourcePaths": [],
 		"java.project.outputPath": "bin",
-		"java.project.referencedLibraries": [
-			"lib/**/*.jar"
-		],
+		"java.project.referencedLibraries": [],
 		"java.compile.nullAnalysis.mode": "automatic",
-		"java.configuration.updateBuildConfiguration": "interactive"
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.format.settings.url": "labOne/.vscode/java-formatter.xml"
 	}
 }
