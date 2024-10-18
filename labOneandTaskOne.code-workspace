@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "UserJavaSnippets",
+			"path": "../../UserJavaSnippets"
+		},
+		{
+			"name": "palindrometask1",
+			"path": "../../palindrometask1"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src",
+			"test",
+			"main",
+			"java",
+			"labonerefactor"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
