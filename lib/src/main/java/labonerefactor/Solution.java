@@ -24,15 +24,7 @@ Explanation: There is a cycle in the linked list, where tail connects to the sec
 
 import java.util.HashMap;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-
-    public class Solution {
+    public class HashMapSolution {
         public ListNode detectCycle(ListNode head){
           HashMap<ListNode, Integer> nodeMap = new HashMap<>(); // create new Hashmap of type listNode and boolean 
           ListNode current = head;
