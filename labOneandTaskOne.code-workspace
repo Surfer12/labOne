@@ -10,15 +10,15 @@
 		{
 			"name": "palindrometask1",
 			"path": "../../palindrometask1"
+		},
+		{
+			"path": "../../WeissJavaDevelopementGuide"
 		}
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"src",
-			"test",
-			"main",
-			"java",
-			"labonerefactor"
+			"Weiss Code 0.1/weiss-code/code",
+			"1.5 Review/weiss-code/code/weiss/nonstandard"
 		],
 		"java.project.outputPath": "bin",
 		"java.project.referencedLibraries": [
