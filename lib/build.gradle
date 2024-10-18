@@ -36,7 +36,7 @@ java {
         // Specify the JDK path
         vendor = JvmVendorSpec.matching("redhat") // Assuming you want to specify the vendor
         // You can also specify the JDK home if needed
-        installationPath = file('/home/dakinestyle/.cursor-server/extensions/redhat.java-1.36.2024101708-linux-x64/jre/17.0.12-linux-x86_64')
+        //installationPath = file('/home/dakinestyle/.cursor-server/extensions/redhat.java-1.36.2024101708-linux-x64/jre/17.0.12-linux-x86_64')
     }
 }
 

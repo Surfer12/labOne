@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = 'labOneRefactor'
-include('lib')
+include('palindrometask1')
