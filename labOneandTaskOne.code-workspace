@@ -2,17 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"name": "UserJavaSnippets",
-			"path": "../../UserJavaSnippets"
-		},
-		{
-			"name": "palindrometask1",
-			"path": "../../palindrometask1"
-		},
-		{
-			"path": "../../WeissJavaDevelopementGuide"
 		}
 	],
 	"settings": {
@@ -21,6 +10,11 @@
 		"java.project.referencedLibraries": [],
 		"java.compile.nullAnalysis.mode": "automatic",
 		"java.configuration.updateBuildConfiguration": "interactive",
-		"java.format.settings.url": "labOne/.vscode/java-formatter.xml"
+		"java.format.settings.url": "labOne/.vscode/java-formatter.xml",
+		"github.copilot.chat.experimental.generateTests.codeLens": true,
+		"github.copilot.chat.experimental.inlineChatCompletionTrigger.enabled": true,
+		"github.copilot.chat.experimental.startDebugging.enabled": true,
+		"github.copilot.chat.experimental.temporalContext.enabled": true,
+		"github.copilot.chat.scopeSelection": true
 	}
 }
